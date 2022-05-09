@@ -1,0 +1,14 @@
+@use '../base/mixins' as mix;
+
+.elements-sectionText {
+    flex-direction: column;
+
+    @include mix.tablet {
+        margin-top: 10rem;
+
+        h3 {
+            font-size: 4.2rem;
+        }
+    }
+
+}
