@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    //font-family: $fuente_principal;
+    font-family: MYRIA;
     font-size: 1.6rem;
     line-height: 1.8;
 }
@@ -22,15 +22,9 @@ p {
 }
 
 .container {
+    width: 95%;
     display: flex;
-    width: 100%;
-    max-width: 120rem;
     margin: 0 auto;
-}
-
-.section {
-    width: 70%;
-    margin: 5rem auto;
 }
 
 a {
@@ -46,13 +40,10 @@ picture {
 h1,
 h2,
 h3 {
-    //font-family: $fuente_principal;
-    //margin: $separacion / 2 0;
     color: rgb(255, 255, 255);
     margin: 0;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
-
 }
 
 h1 {
