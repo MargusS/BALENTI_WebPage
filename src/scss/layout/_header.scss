@@ -2,36 +2,57 @@
 
 .header {
     padding: 2rem;
-
-    @include mix.desktop {}
 }
 
 .elements-header {
-    display: flex;
     flex-direction: column;
     align-items: center;
 
-    // @include mix.desktop {
-    //     flex-direction: row;
-    //     justify-content: space-between;
-    // }
+    @include mix.desktop {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 .logo {
-    width: 90%;
+    width: 100%;
+
+    h2 {
+        font-family: DOMINIQUE;
+        font-weight: bold;
+        font-size: 7rem;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
 
     @include mix.tablet {
         width: 60%;
+
+        h2 {
+            font-size: 10rem;
+        }
     }
 
     @include mix.desktop {
-        width: 35rem;
+        width: 100%;
+
+        h2 {
+            text-align: start;
+        }
     }
 }
 
 .instagram {
     margin-top: 2rem;
     width: 5rem;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
 
     a {
         width: 100%;

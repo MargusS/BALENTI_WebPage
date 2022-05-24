@@ -1,4 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@font-face {
+    font-family: MYRIA;
+    src: url(/build/fonts/MYRIADAM.TTF), url(/build/fonts/MYRIADAS.TTF);
+}
+
+@font-face {
+    font-family: DOMINIQUE;
+    src: url(/build/fonts/Dominique.otf);
+}
+
 
 // Fuentes
 $fuente_principal: 'Lato', sans-serif;
